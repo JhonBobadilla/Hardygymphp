@@ -15,7 +15,7 @@ if(isset($_POST['send'])) {
       $email = trim($_POST['email']);
       $phone = trim($_POST['phone']);
       $fecha = date("d/m/y");
-      $consulta = "INSERT INTO datos(nombre, contraseña, email, telefono, fecha)
+      $consulta = "INSERT INTO datos(nombre, password, email, telefono, fecha)
                    VALUES ('$name', '$password', '$email', '$phone', '$fecha')";
 
       $resultado = mysqli_query($conex, $consulta);
