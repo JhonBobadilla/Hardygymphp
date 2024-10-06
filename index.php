@@ -18,7 +18,6 @@
 </head>
  <body>
  
-
 <div class="cont_logo_hardy_list">
         <div class="principal_logo">
          <img class="logo1" src="logo.png" alt="logo"></div>
